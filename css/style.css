@@ -1,0 +1,165 @@
+/* For PC || In General */
+
+.dropdown-menu {
+  min-width: 50px !important;
+  height: 120px !important;
+}
+.dropdown-menu li {
+  width: 100% !important;
+  height: 35px !important;
+}
+
+#projects {
+  background-color: var(--bs-body-bg);
+}
+body {
+  min-height: 3000px;
+}
+.jumbotron {
+  padding-top: 2rem;
+  background-color: var(--bs-body-bg);
+  /* background-color: #e2edff; */
+}
+
+#nama {
+  border: 1px solid #000;
+}
+#email {
+  border: 1px solid #000;
+}
+#pesan {
+  border: 1px solid #000;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+/* my keyboard section */
+.keyboard-box {
+  position: relative;
+  background-color: #0c6efd;
+  border-radius: 10px;
+  height: 500px;
+  transform-style: preserve-3d;
+}
+
+.keyboard-box::before {
+  content: "MY";
+  position: absolute;
+  color: #fff;
+  font-size: 6em;
+  font-weight: bold;
+  font-style: italic;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.keyboard-box::after {
+  content: "Keyboard";
+  position: absolute;
+  color: #fff;
+  font-size: 4em;
+  font-weight: bold;
+  font-style: italic;
+  top: 350px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.keyboard-box:hover::before {
+  opacity: 0.2;
+}
+.keyboard-box:hover::after {
+  opacity: 0.2;
+}
+
+.keyboard-name {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 2em;
+  opacity: 0;
+  transition: 0.5;
+  transform: translate3d(0, 0, 50px);
+}
+
+.keyboard-box:hover .keyboard-name {
+  top: 20px;
+  opacity: 1;
+}
+.keyboard-detail-button {
+  position: absolute;
+
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  transition: 0.5;
+  opacity: 0;
+  z-index: 3;
+}
+.keyboard-box:hover .keyboard-detail-button {
+  bottom: 20px;
+  opacity: 1;
+}
+
+.keyboard-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-50%, -52%, 100px);
+  max-width: 250px;
+  transition: 0.5s;
+  z-index: 10;
+}
+
+.keyboard-box:hover .keyboard-img {
+  transform: translate3d(-50%, -52%, 100px) rotate(5deg) scale(1.1);
+}
+
+footer {
+  margin-top: -4rem;
+  border: 2px solid black;
+}
+
+/* RESPONSIVE */
+/* MEDIA QUERIES */
+
+/* LAPTOP */
+@media (max-width: 1366px) {
+}
+/* TABLET */
+
+@media (min-width: 535px) and (max-width: 1024px) {
+  .dropdown-menu {
+    width: 40%;
+  }
+}
+
+/* MOBILE PHONE */
+@media (max-width: 520px) {
+  .dropdown-menu {
+    width: 30%;
+  }
+
+  #contact {
+    padding-top: 0;
+    margin-top: -1rem !important;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+  }
+  footer {
+    bottom: 0;
+  }
+}
