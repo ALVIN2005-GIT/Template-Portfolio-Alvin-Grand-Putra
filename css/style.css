@@ -195,12 +195,7 @@ footer {
     padding: 0 !important;
     margin-bottom: 0 !important;
   }
-  footer p {
-    color: var(--bs-body-bg) !important;
-  }
-  footer p #home {
-    color: var(--bs-white) !important;
-  }
+
   footer .svg-footer {
     margin-bottom: -10px !important ;
   }
