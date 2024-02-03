@@ -1,4 +1,7 @@
 /* For PC || In General */
+body {
+  overflow-x: hidden;
+}
 
 .dropdown-menu {
   min-width: 50px !important;
@@ -129,8 +132,8 @@ body {
 }
 
 footer {
-  margin-top: -4rem;
-  border: 2px solid black;
+  background-color: #2466ca;
+  margin-top: -5rem !important;
 }
 
 /* RESPONSIVE */
