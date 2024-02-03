@@ -2,6 +2,7 @@
 
 body {
   overflow-x: hidden !important;
+  box-sizing: border-box;
 }
 
 .dropdown-menu {
@@ -11,6 +12,9 @@ body {
 .dropdown-menu li {
   width: 100% !important;
   height: 35px !important;
+}
+#about {
+  margin-top: -2px !important;
 }
 
 #projects {
