@@ -2,7 +2,9 @@
 
 body {
   overflow-x: hidden !important;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 
 .dropdown-menu {
@@ -194,7 +196,7 @@ footer {
   footer {
     display: flex !important;
     justify-content: center !important;
-    margin-top: -7.5rem !important;
+    margin-top: -6.8rem !important;
 
     padding: 0 !important;
     margin-bottom: 0 !important;
