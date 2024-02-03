@@ -163,13 +163,6 @@ footer {
     justify-content: center !important;
     margin-top: -12rem !important;
   }
-
-  footer p {
-    color: var(--bs-body-bg) !important;
-  }
-  footer p #home {
-    color: var(--bs-white) !important;
-  }
 }
 
 /* MOBILE PHONE */
