@@ -132,7 +132,6 @@ body {
 }
 
 footer {
-  background-color: #2466ca;
   margin-top: -5rem !important;
 }
 
@@ -148,6 +147,16 @@ footer {
   .dropdown-menu {
     width: 40%;
   }
+
+  #about {
+    margin-top: -10px;
+  }
+  #projects {
+    margin-top: -10px;
+  }
+  #gallery {
+    margin-top: -10px;
+  }
 }
 
 /* MOBILE PHONE */
@@ -159,10 +168,13 @@ footer {
   #contact {
     padding-top: 0;
     margin-top: -1rem !important;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
   }
   footer {
-    bottom: 0;
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: -3rem !important;
+
+    padding: 0 !important;
+    margin-bottom: 0 !important;
   }
 }
