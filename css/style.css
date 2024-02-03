@@ -133,7 +133,7 @@ body {
 }
 
 footer {
-  margin-top: -5rem !important;
+  margin-top: -26rem !important;
 }
 
 /* RESPONSIVE */
@@ -158,6 +158,18 @@ footer {
   #gallery {
     margin-top: -10px !important;
   }
+  footer {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: -12rem !important;
+  }
+
+  footer p {
+    color: var(--bs-body-bg) !important;
+  }
+  footer p #home {
+    color: var(--bs-white) !important;
+  }
 }
 
 /* MOBILE PHONE */
@@ -169,6 +181,15 @@ footer {
     width: 30%;
   }
 
+  #about {
+    margin-top: -10px !important;
+  }
+  #projects {
+    margin-top: -12px !important;
+  }
+  #gallery {
+    margin-top: -10px !important;
+  }
   #contact {
     padding-top: 0;
     margin-top: -1rem !important;
@@ -176,9 +197,21 @@ footer {
   footer {
     display: flex !important;
     justify-content: center !important;
-    margin-top: -3rem !important;
+    margin-top: -7.5rem !important;
 
     padding: 0 !important;
     margin-bottom: 0 !important;
+  }
+  footer p {
+    color: var(--bs-body-bg) !important;
+  }
+  footer p #home {
+    color: var(--bs-white) !important;
+  }
+  footer .svg-footer {
+    margin-bottom: -10px !important ;
+  }
+  footer .svg-footer2 {
+    margin-top: -10px !important ;
   }
 }
