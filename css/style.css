@@ -150,14 +150,13 @@ footer {
   }
 
   #about {
-    margin-top: -10px;
-    margin-bottom: -5px;
+    margin-top: -10px !important;
   }
   #projects {
-    margin-top: -12px;
+    margin-top: -12px !important;
   }
   #gallery {
-    margin-top: -10px;
+    margin-top: -10px !important;
   }
 }
 
