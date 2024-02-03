@@ -1,6 +1,6 @@
 /* For PC || In General */
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .dropdown-menu {
